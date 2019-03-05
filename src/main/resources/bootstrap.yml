@@ -1,0 +1,9 @@
+---
+spring:
+  application:
+    name: partridge-register-user
+  cloud:
+    config:
+      uri: "https://partridge-config-server.cfapps.io/"
+  profiles:
+    active: ""
